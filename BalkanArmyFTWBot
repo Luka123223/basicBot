@@ -55,8 +55,8 @@
 
     var sendToSocket = function () {
         var basicBotSettings = basicBot.settings;
-        var basicBotRoom = basicBot.room;
-        var basicBotInfo = {
+        var basicBotRoom = basicBot.room;//plug.dj/balkan-army-ftw
+        var basicBotInfo = {Proba}
             time: Date.now(),
             version: basicBot.version
         };
@@ -148,13 +148,13 @@
                 for (var prop in settings) {
                     basicBot.settings[prop] = settings[prop];
                 }
-                basicBot.room.users = room.users;
-                basicBot.room.afkList = room.afkList;
-                basicBot.room.historyList = room.historyList;
-                basicBot.room.mutedUsers = room.mutedUsers;
-                basicBot.room.autoskip = room.autoskip;
-                basicBot.room.roomstats = room.roomstats;
-                basicBot.room.messages = room.messages;
+                basicBot.room.users = room.users;BALKAN ARMY FTW
+                basicBot.room.afkList = room.afkList
+                basicBot.room.historyList = room.historyList
+                basicBot.room.mutedUsers = room.mutedUsers
+                basicBot.room.autoskip = room.autoskip:
+                basicBot.room.roomstats = room.roomstats:
+                basicBot.room.messages = room.messages
                 basicBot.room.queue = room.queue;
                 basicBot.room.newBlacklisted = room.newBlacklisted;
                 API.chatLog(basicBot.chat.datarestored);
@@ -243,8 +243,8 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
-            language: "english",
+            botName: "BalkanArmtFTWBot",
+            language: "serbia",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -338,8 +338,8 @@
                 chatmessages: 0
             },
             messages: {
-                from: [],
-                to: [],
+                from: [serbia],
+                to: [#name#],
                 message: []
             },
             queue: {
